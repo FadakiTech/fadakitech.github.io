@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fadaki Browser - Fadaki Tech</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0;
+      background: white;
+      font-family: Arial, sans-serif;
+      color: #333;
+      min-height: 100vh;
+    }
+    nav {
+      background: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #0078d7;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 25px;
+    }
+    img.screenshot {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      margin-bottom: 25px;
+      border-radius: 8px;
+    }
+    a.download-button {
+      display: inline-block;
+      padding: 14px 30px;
+      background-color: #0078d7;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px;
+    }
+    a.download-button:hover {
+      background-color: #005ea0;
+    }
+    .warning {
+      color: #b00020;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">Fadaki Browser</a>
+  </nav>
+
+  <main>
+    <h1>Fadaki Browser</h1>
+    <img src="screenshot.png" alt="Fadaki Browser Screenshot" class="screenshot" />
+    <p>
+      Download the latest stable release of Fadaki Browser. Enjoy a simple, fast browsing experience.
+    </p>
+    <a
+      href="https://github.com/FadakiTech/FadakiBrowser/releases/download/1.0/Fadaki-Browser-1.0-installer.exe"
+      class="download-button"
+      download
+      >Download Fadaki Browser 1.0</a
+    >
+    <p class="warning">
+      ⚠️ Note: Fadaki Browser does not support dragging tabs. Dragging tabs will cause the browser to crash.
+      Please avoid dragging tabs while using it.
+    </p>
+  </main>
+</body>
+</html>
